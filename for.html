@@ -1,0 +1,47 @@
+<!DODTYPE HTML>
+<html>
+<head>
+     <title>formulaire cv</title>
+     <meta charset="utf-8"></meta>
+	 <link rel="stylesheet" href="for.css"/>
+</head>
+<body>
+<fieldset>
+   <legend>Contact </legend>
+  <label for="nom">NOM <em>*</em></label>
+  <input id="nom" placeholder="olivier serre" autofocus="" required=""><br>
+  <label for="telephone">portable</label>
+  <input id="telephone" type="tel" placeholder="06XXXXXXXX" pattern="06[0-9]{8}"><br>
+  <label for="email">EMAIL<em>*</em></label>
+  <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required="" pattern="[a-zA-Z]* .[a-zA-Z]*@polytechnique.edu"><br>
+</fieldset>
+<fieldset>
+<legend>information personnelles</legend>
+<label for="age">Age<eme>*</em></label>
+<input id="age" type="number" placeholder="XX" pattern="[0-9]{2}" required=""><br>
+<label for="sexe">sexe</label>
+<select id="sexe">
+   <option value="F" name="sexe">Femme</option>
+   <option value="H" name="sexe">Homme</option>
+   </select><br>
+   <label for="comments">pourquoi voulez-vous vous impliquer dans l'organisation du point ?</label>
+   <textarea id="comments"></textarea>
+ </fieldset>  
+ <fieldset></br>
+ <legend>choisissez vos binets favoris</legend>
+ <label for="chatnoir"><input id="chatnoir" type="checkbox" name="binet" value="chat">chat Noir</label>
+ <label for="oenologie"><input id="oenologie" type="checkbox" name="binet" value="vin">Oenologie</label>
+<label for="bobar"><input id="bobar" type="checkbox" name="binet" value="bob">Bobar</label>
+<label for="Xpara"><input id="Xpara" type="checkbox" name="binet" value="para">X-Para</label>
+</br>
+</br>
+<label for="khomiss"><input id="khomiss" type="checkbox" name="binet" value="???">khomiss</label>
+<label for="politix"><input id="politix" type="checkbox" name="binet" value="PolitiX">PolitiX</label>
+<label for="raid"><input id="raid" type="checkbox" name="binet" value="raid">Binet Raid</label>
+<label for="Xsoirees"><input id="Xsoirees" type="checkbox" name="binet" value="fiesta">X-soirées</label>
+</fieldset>
+<p><input type="submit" value="Soumettre"></p>
+</body>
+
+
+</html>
