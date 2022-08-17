@@ -1,26 +1,23 @@
-p {
-	margin-top: 0px;
-	{
- fieldest {
+ fieldset {
   margin-bottom: 15px;
-  padding: 10px;
+  padding: 8px;
 }
+ 
 legend {
   padding: 0px 3px;
   font-weight: bold;
   font-variant: small-caps;
 }
+ 
 label {
-  width: 110px;
+  width: 80px;
   display: inline-block;
   vertical-align: top;
   margin: 6px;
 }
-
+ 
 em {
   font-weight: bold;
   font-style: normal;
   color: red;
 }
-	  
-	
